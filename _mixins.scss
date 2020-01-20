@@ -1,0 +1,12 @@
+// Mixins RESPONSIVE
+@mixin xxs { @media (max-width: #{$screen-xxs-max}) {@content;} } // iPhone SE
+@mixin xs { @media (max-width: #{$screen-xs-max}) {@content;} } // Tiny devices
+@mixin sm { @media (max-width: #{$screen-sm-max}) {@content;} } // Small devices
+@mixin md { @media (max-width: #{$screen-md-max}) {@content;} } // Medium devices
+@mixin lg { @media (max-width: #{$screen-lg-max}) {@content;} } // Large devices
+@mixin xl { @media (max-width: #{$screen-xl-max}) {@content;} } // Extra large devices
+
+@mixin xxl { @media (max-width: #{$screen-xxl-max}) {@content;} } // Laptop 1360 devices
+@mixin mac { @media (max-width: #{$screen-mac-max}) {@content;} } // MAC 
+@mixin fhd { @media (max-width: #{$screen-fhd-max}) {@content;} } // MAC RETINA 15
+@mixin mac15 { @media (max-width: #{$screen-mac15-max}) {@content;} } // MAC RETINA 15
